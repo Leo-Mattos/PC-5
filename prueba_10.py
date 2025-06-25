@@ -5,7 +5,7 @@ from PIL import Image
 st.set_page_config(page_title="CV de Leo Mattos", page_icon="💼", layout="wide")
 
 # --- CARGAR FOTO DE PERFIL ---
-foto = Image.open("foto_perfil.jpeg")
+foto = Image.open("foto_perfil.jpg")
 
 # --- ENCABEZADO ---
 col1, col2 = st.columns([1, 3])
